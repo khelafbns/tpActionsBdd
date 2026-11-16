@@ -2,6 +2,7 @@ name: DB Check
 
 on: push
 
+  
 jobs:
   db:
     runs-on: ubuntu-latest
