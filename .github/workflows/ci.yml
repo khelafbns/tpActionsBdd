@@ -92,7 +92,7 @@ jobs:
         run: vendor/bin/phpunit tests
         working-directory: php-app
 
- build:
+  build:
     runs-on: ubuntu-latest
     needs: [python, node, java, php]
     steps:
