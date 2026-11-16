@@ -97,7 +97,7 @@ jobs:
     needs: [python, node, java, php]
     steps:
       - name: Build
-        run: echo "Build OK : les 4 jobs de tests ont réussi"
+        run: echo "Build OK - les 4 jobs de tests ont réussi"
 
   deploy:
     runs-on: ubuntu-latest
